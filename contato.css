@@ -1,0 +1,221 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background-image: url(backgroundComida.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 80%);
+    background-blend-mode: multiply;
+    display: grid;
+    grid-template: 25vh / 1fr 6fr 1fr;
+}
+
+#logo-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo-header{
+    font-family: "Italianno", cursive;
+    font-size: 100px;
+    font-style: normal;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    width: 134px;
+    height: 134px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+#logo img{
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu svg{
+    width: 50px;
+    height: 50px;
+}
+
+#corpo-site{
+    display: grid;
+    grid-template: 120vh / 1fr 2fr 1fr;
+    height: 120vh;
+    align-items: center;
+}
+
+#formulario{
+    background-color: #EDEDED;
+    height: 110vh;
+}
+
+form{
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+                                                    
+
+
+input{
+    width: 99%;
+    height: 30px;
+    font-size: 15px;
+    font-family: "Gudea", sans-serif;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+label{
+    font-family: "Gudea", sans-serif;
+    font-weight: bold;
+}
+
+#nome{
+    width: 90%;
+}
+
+#motivo{
+    width: 90%;   
+
+}
+
+#motivo input{
+    height: 30vh;
+}
+
+#cpf-cnpj{
+    width: 90%;
+}
+
+#telefone{
+    width: 90%
+}
+
+#email{
+    width: 90%;
+}
+
+#botao{
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#botao button{
+    width: 201px;
+    height: 62px;
+    color: #FD2526;
+    font-size: 20px;
+    background-color: #ffffff;
+    border: solid 5px #FD2526;
+    border-radius: 10px;
+    border-color: #FD2526;
+    transition: 300ms;
+    font-family: "Gudea", sans-serif;
+
+}
+
+#botao button:hover{
+    color: #ffffff;
+    background-color: #FD2526;
+}
+
+footer{
+    width: 100%;
+    height: 12vh;
+    background-color: #EDEDED;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 4fr 2fr 1fr;
+    grid-template-rows: 12vh;
+    align-items: center;
+}
+
+#logo-footer img{
+    width: 90%;
+    height: 12vh;
+    object-fit: contain;
+    
+}
+
+#links1-footer{
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-left: 1px black solid ;
+    height: 9vh;
+}
+
+#links1-footer a{
+    /*text-decoration: none;*/
+    background-color: transparent;
+    color: #000000;
+    padding-left: 10px;
+    font-family: "Gudea", sans-serif;
+
+
+}
+
+#links1-footer a:hover{
+    text-decoration: underline;
+    color: #039F00;
+}
+
+#links2-footer{
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-left: 1px black solid ;
+    height: 9vh;
+}
+
+#links2-footer a{
+    /*text-decoration: none;*/
+    background-color: transparent;
+    color: #000000;
+    padding-left: 10px;
+    font-family: "Gudea", sans-serif;
+
+}
+
+#links2-footer a:hover{
+    text-decoration: underline;
+    color: #FD2526;
+}
+
+#redes-socias-footer{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+#redes-socias-footer svg{
+    width: 50px;
+    height: 50px;
+}

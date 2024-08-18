@@ -1,0 +1,378 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background-image: url(backgroundComida.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 80%);
+    background-blend-mode: multiply;
+    display: grid;
+    grid-template: 25vh / 1fr 4fr 4fr 1fr;
+}
+
+header img{
+    
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+#logo{
+    object-fit: fill;
+    text-align: center;
+}
+
+#logo-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+    color: white;
+    font-family: "Gudea", sans-serif;
+}
+
+#titulo{
+    font-family: "Italianno", cursive;
+    font-size: 90px;
+    font-style: normal;
+    color: white;
+}
+
+#aberto{
+    color: #039F00;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+input{
+    width: 98%;
+    height: 30px;
+    font-size: 15px;
+    font-family: "Gudea", sans-serif;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 15px;
+    opacity: 0.7;
+}
+
+form{
+    width: 100%;
+}
+
+#busca{
+    display: flex;
+    align-items: center;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu svg{
+    width: 50px;
+    height: 50px;
+}
+
+#subtitulo{
+    height: 90px;
+    display: grid;
+    grid-template: 90px / 90px 1fr 1fr 90px;
+}
+
+#house{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#house svg{
+    width: 50px;
+    height: 50px;
+}
+
+#user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#user svg{
+    width: 50px;
+    height: 50px;
+}
+
+#endereco{
+    color: #000000;
+    font-family: "Gudea", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+#logins{
+    color: #000000;
+    font-family: "Gudea", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#logins a{
+    color: #000000;
+}
+
+p{
+    font-weight: bold;
+}
+
+main{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template: 100vh / 4fr 1fr;
+}
+
+#carnes{
+    background-color: #000000;
+    height: 30px;
+    color: white;
+    font-family: "Italianno", cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+#carrinho{
+    border: 5px solid #FD2526;
+}
+
+#itens-carrinho{
+    background-color: #FD2526;
+    height: 25px;
+    color: white;
+    font-family: "Gudea", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#produto-carrinho{
+    display: grid;
+    grid-template: 10vh / 1fr 3fr;
+    border: 5px solid #EDEDED;
+}
+
+#produto-carrinho div img{
+    width: 85%;
+    height: 85%;
+    border-radius: 10%;
+    border: 2px solid #EDEDED;
+    object-fit: cover;
+}
+
+#produto-carrinho div:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#texto-produto-carrinho h4{
+    font-weight: normal;
+    color: #039F00;
+}
+
+#texto-produto-carrinho h5{
+    font-weight: normal;
+    color: #FD2526;
+}
+
+#texto-produto-carrinho input{
+    font-weight: normal;
+    text-align: center;
+    width: 25%;
+    background-color: #EDEDED;
+    opacity: 1;
+    border: 2px solid black;
+}
+
+#texto-produto-carrinho form{
+    text-align: right;
+}
+
+#texto-produto-carrinho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    font-family: "Gudea", sans-serif;
+}
+
+#produto{
+    display: grid;
+    grid-template: 20vh / 1fr 6fr 1fr;
+    border: 5px solid #EDEDED;
+}
+
+#produto div img{
+    width: 85%;
+    height: 85%;
+    border-radius: 10%;
+    border: 2px solid #EDEDED;
+    object-fit: cover;
+}
+
+#produto div:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#texto-produto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    font-family: "Gudea", sans-serif;
+}
+
+#texto-produto h2{
+    font-weight: normal;
+    text-align: right;
+    color: #039F00;
+}
+
+#texto-produto h1{
+    font-weight: normal;
+    color: #FD2526;
+}
+
+#produto div:nth-child(3) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#prosseguir{
+    width: 20%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Gudea", sans-serif;
+    position: fixed;
+    bottom: 13vh;
+}
+
+#prosseguir div{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#prosseguir h2:nth-child(2){
+   color: #039F00;
+}
+
+#prosseguir a{
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: #039F00;
+    border-radius: 15px;
+}
+
+footer{
+    width: 100%;
+    height: 12vh;
+    background-color: #EDEDED;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 4fr 2fr 1fr;
+    grid-template-rows: 12vh;
+    align-items: center;
+}
+
+#logo-footer img{
+    width: 90%;
+    height: 12vh;
+    object-fit: contain;
+    
+}
+
+#links1-footer{
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-left: 1px black solid ;
+    height: 9vh;
+}
+
+#links1-footer a{
+    background-color: transparent;
+    color: #000000;
+    padding-left: 10px;
+    font-family: "Gudea", sans-serif;
+
+
+}
+
+#links1-footer a:hover{
+    text-decoration: underline;
+    color: #039F00;
+}
+
+#links2-footer{
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-left: 1px black solid ;
+    height: 9vh;
+}
+
+#links2-footer a{
+    background-color: transparent;
+    color: #000000;
+    padding-left: 10px;
+    font-family: "Gudea", sans-serif;
+
+}
+
+#links2-footer a:hover{
+    text-decoration: underline;
+    color: #FD2526;
+}
+
+#redes-socias-footer{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+#redes-socias-footer svg{
+    width: 50px;
+    height: 50px;
+}
+
